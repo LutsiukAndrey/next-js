@@ -40,17 +40,15 @@ body {
 .header_link:hover,
 .header_link:focus {
   transform: scale(1.2);
-  /* color: #d978ac; */
+  color: #d978ac;
   transition: transform 200ms;
+}
+.active {
+  transform: scale(1.2);
+  color: #d978ac;
 }
 
 .footer {
-  /* position: absolute; */
-  /* transform: translateX(-50%);
-  left: 50%; */
-
-  /* bottom: 0; */
-  /* width: 100%; */
   padding: 20px 0;
   background-color: #1e1e1e;
   color: #43ffd2;
