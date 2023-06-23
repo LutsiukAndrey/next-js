@@ -20,6 +20,9 @@ ul {
 body {
   background-color: #fbfbfbd8;
 }
+main {
+  min-height: calc(100vh - 160px);
+}
 
 .container {
   max-width: 800px;
