@@ -1,6 +1,7 @@
 import { Container } from './components/Container';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
+import { Providers } from './components/Providers';
 import './globals.css';
 import { Inter } from 'next/font/google';
 
@@ -19,11 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Container>
-          <Header />
-          <main>{children}</main>
-          <Footer />
-        </Container>
+        <Providers>
+          <Container>
+            <Header />
+            <main>{children}</main>
+            <Footer />
+          </Container>
+        </Providers>
       </body>
     </html>
   );
